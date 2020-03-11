@@ -1,9 +1,9 @@
 <?php
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_SERVER', 'db');
 define('DB_NAME', 'bmi_calculator');
- 
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'test');
+
 /* Attempt to connect to MySQL database */
 try{
     $pdo = new PDO("mysql:host=" . DB_SERVER . ";dbname=" . DB_NAME, DB_USERNAME, DB_PASSWORD);

@@ -115,7 +115,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Logg inn">
             </div>
-            <p>Har du ikke en konto? <a href="login_registration.php">Registrer deg nå!</a>.</p>
+            <p>Har du ikke en konto? <a href="login_registration.php">Registrer deg nå!</a></p>
         </form>
     </div>
 </body>
