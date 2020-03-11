@@ -85,13 +85,13 @@ ALTER TABLE `login_table`
 -- AUTO_INCREMENT for table `bmi_table`
 --
 ALTER TABLE `bmi_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `login_table`
 --
 ALTER TABLE `login_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Begrensninger for dumpede tabeller
